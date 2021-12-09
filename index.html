@@ -1,0 +1,793 @@
+<!--
+//////////////////////////////////////////////////////////////////////////
+// Criacao...........: 03/2021
+// Sistema...........: Site do Parceiros do Lar
+// Analistas.........: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+// Desenvolvedores...: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+// Copyright.........: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+//////////////////////////////////////////////////////////////////////////
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Parceiros do Lar</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Material Icon Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!--
+    ==========================
+    Header
+    ==========================
+  -->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto"><img id="logoImg" src="img/LogoHorizontalPequeno.png"></a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Início</a></li>
+          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <!--<li><a href="#portfolio">Clientes</a></li>-->
+          <li><a href="#team">Equipe</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--
+    ==========================
+    Intro Section
+    ==========================
+  -->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" data-bs-interval="10000" data-ds-pause="hover">
+            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Sua casa em boas mãos</h2>
+                <p>
+                  Queremos prestar um serviço diferenciado para voce que possui uma casa de veraneio e quando vier passar os seus dias na praia, possa desfrutar desse precioso tempo com a família e amigos sem precisar se preocupar em ter que realizar as atividades necessárias para a manutenção e conservação da casa. Para isso nos propomos a realizar (intermediar) uma série de serviços para voce.
+                </p>
+                <a href="#services" class="btn-get-started scrollto">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="5000">
+            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Monitorar estado de conservação</h2>
+                <p>
+                  Através de visitas periodicas ao imóvel verificamos as condições do mesmo.
+                </p>
+                <a href="#services" class="btn-get-started scrollto">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="5000">
+            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Limpeza do imóvel</h2>
+                <p>
+                  Uma limpeza residencial adequada é fundamental para evitar alergias respiratórias, proliferação de doenças no ambiente e garantir o conforto da família.
+                </p>
+                <a href="#services" class="btn-get-started scrollto">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="5000"> 
+            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Reparos elétricos e hidraulicos</h2>
+                <p>
+                  Realizamos reparos e atividades relacionadas a parte elétrica e hidraulica do imóvel.
+                </p>
+                <a href="#services" class="btn-get-started scrollto">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="5000">
+            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Limpeza de piscina</h2>
+                <p>
+                  Realizamos a limpeza e manutenção da sua piscina.
+                </p>
+                <a href="#services" class="btn-get-started scrollto">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!--
+      ==========================
+      Featured Services Section
+      ==========================
+    -->
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-bookmarks-outline"></i>
+            <h4 class="title"><a href="">Agenda</a></h4>
+            <p class="description">
+              Nos preocupamos com seu imóvel por você, liberando sua agenda para outras coisas importantes.
+            </p>
+          </div>
+
+          <div class="col-lg-4 box box-bg">
+            <i class="ion-ios-stopwatch-outline"></i>
+            <h4 class="title"><a href="">Tempo</a></h4>
+            <p class="description">
+              Queremos polpar seu tempo, para que você possa ter mais tempo com sua família.
+            </p>
+          </div>
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-heart-outline"></i>
+            <h4 class="title"><a href="">Carinho</a></h4>
+            <p class="description">
+              É assim que cuidamos de seu imóvel, com muito carinho.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--
+      ==========================
+      About Us Section
+      ==========================
+    -->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Sobre nós</h3>
+          <p>
+            Nossa empresa é uma empresa familiar, nós vivemos em Caraguatatuba, logo, utilizamos o serviço de vários profissionais para a manutenção e preservação da nossa casa. Sabemos que há muitas casas de veraneio que ficam a maior parte do tempo fechada e que precisam de uma manutenção por motivos de segurança, comodidade e até mesmo para manter a valorização do imóvel.
+          </p>
+          <p>
+            A nossa proposta é fazer a administração do seu imóvel e te dar a tranquilidade de que quando voce vier passar seus dias de folga na sua casa de praia a encontre nas melhores condições possíveis e então possa desfrutar bons momentos de lazer e descanso.
+          </p>
+          <p>
+            Entre em contato e conheça mais sobre a nossa proposta ! 
+          </p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nossa Missão</a></h2>
+              <p>
+                  Auxiliar você a cuidar de seu patrimonio, seu imóvel, zelando por ele. Te liberando de buscar profissionais, acompanhar e verificar os serviços a serem efetuados no imóvel. Para que você possa dedicar este tempo extra para si e sua família.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nosso Plano</a></h2>
+              <p>
+                Trabalhar com os melhores profissionais, em cada um dos serviços necessários em um imóvel, visando a execução de serviços de excelência e com preços justos. Criamos um time que vai cuidar com dedicação e carinho do seu imóvel.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nossa Visão</a></h2>
+              <p>
+                Queremos que as pessoas que possuem imóveis de verâneio em nossa cidade, possam vir e desfrutar de seus momentos de lazer sem preocupações com a conservação e reparos de seu imóvel. Nós nos preocupamos, para você descansar e se divertir.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--
+      ==========================
+      Services Section
+      ==========================
+    -->
+    <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>Serviços</h3>
+          <p>
+            Nossos parceiros e terceirizados estão entre os melhores do nosso mercado. Além de competentes, terem preços justos, são de confiança.
+          </p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon">
+              <span class="material-icons">visibility</span>
+            </div>
+            <h4 class="title"><a href="">Monitorar estado de conservação do imóvel</a></h4>
+            <p class="description">
+              Através de visitas periodicas ao imóvel verificamos as condições do mesmo, enviamos informações por whatsapp e recomendamos os serviços se necessário.  
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon">
+              <span class="material-icons">cleaning_services</span>
+            </div>
+            <h4 class="title"><a href="">Limpeza do imóvel</a></h4>
+            <p class="description">
+              Providenciamos uma diarista para fazer a limpeza da seu imóvel. Uma limpeza residencial adequada é fundamental para evitar alergias respiratórias, proliferação de doenças no ambiente e garantir o conforto da família.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon">
+              <span class="material-icons">handyman</span>
+            </div>
+            <h4 class="title"><a href="">Reparos elétricos e hidráulicos</a></h4>
+            <p class="description">
+              Requisitamos um profissional para realizar atividades relacionadas a parte elétrica e hidráulica do imóvel, como troca de lâmpadas, disjuntores, instalação de chuveiro novo, remoção de vazamentos, troca de torneiras, etc.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon">
+              <span class="material-icons">pool</span>
+            </div>
+            <h4 class="title"><a href="">Limpeza de piscina</a></h4>
+            <p class="description">
+              Disponibilizamos um profissional para realizar a limpeza e manutenção da sua piscina.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon">
+              <span class="material-icons">local_florist</span>
+            </div>
+            <h4 class="title"><a href="">Serviços de jardinagem</a></h4>
+            <p class="description">
+              Vamos providenciar corte de grama e limpeza do jardim e também a retirada do mato que por vezes cresce na calçada do imóvel, esse serviço é muito importante para evitar a proliferação de insetos no imóvel.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon">
+              <span class="material-icons">format_paint</span>
+            </div>
+            <h4 class="title"><a href="">Serviços de pintura e manutenção</a></h4>
+            <p class="description">
+              Intermediamos pequenos serviços de pintura como por exemplo, a pintura de um muro ou de um portão e também alguns serviços realizados por pedreiro, como, alvenaria, reboco, limpeza de calhas e telhas. 
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon">
+              <span class="material-icons">ac_unit</span>
+            </div>
+            <h4 class="title"><a href="">Limpeza de ar condicionado</a></h4>
+            <p class="description">
+              A limpeza periodica do ar condicionado tem como objetivo prevenir que o equipamento apresente falhas ou paradas inesperadas, principalmente no verão. Sua higienização também é importante para manter a saúde das pessoas que usufruem do aparelho. Providenciamos um técnico para a realização desse serviço. 
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon">
+              <span class="material-icons">local_grocery_store</span>
+            </div>
+            <h4 class="title"><a href="">Serviço de entrega de compras de supermercado</a></h4>
+            <p class="description">
+              Oferecemos esse serviço para você que está para vir passar o final de semana ou um feriado prolongado no seu imóvel de praia. Você pode baixar aplicativo de supermercados da cidade e fazer suas compras. Nós buscamos as compras e levamos no seu imóvel, assim quando você chegar, seu imóvel já estará abastecido de mantimentos e você não precisará perder tempo com a ida ao supermercado. 
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--
+      ==========================
+      Call To Action Section
+      ==========================
+    -->
+    <section id="call-to-action" class="wow fadeIn">
+      <div class="container text-center">
+        <h3>Nos preocupamos por você</h3>
+        <p>
+          Libere seu tempo para poder aproveitar melhor nossas praias. Venha realmente descansar e aproveitar cada minuto, com você ou com sua família. Deixe conosco a procupação de manutenção e preservação de seu imóvel.
+        </p>
+        <a class="cta-btn" href="#contact">Entre em Contato</a>
+      </div>
+    </section>
+<!-- Oculto temporariamente 
+ 
+      ==========================
+      Portfolio Section
+      ==========================
+ 
+    <section id="portfolio"  class="section-bg" >
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Nosso Portfólio</h3>
+        </header>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/casa01.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/casa01.jpg" data-lightbox="portfolio" data-title="Casa no bairro A" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Casa no bairro A</a></h4>
+                <p>Providenciamos uma diarista para fazer a limpeza da seu imóvel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/casa02.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/casa02.jpg" class="link-preview" data-lightbox="portfolio" data-title="Casa no bairro B" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Casa no bairro B</a></h4>
+                <p>Providenciamos uma diarista para fazer a limpeza da seu imóvel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/casa03.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/casa03.jpg" class="link-preview" data-lightbox="portfolio" data-title="Casa no bairro C" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Casa no bairro C</a></h4>
+                <p>Providenciamos uma diarista para fazer a limpeza da seu imóvel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/casa04.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/casa04.jpg" class="link-preview" data-lightbox="portfolio" data-title="Casa no bairro D" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Casa no bairro D</a></h4>
+                <p>Providenciamos uma diarista para fazer a limpeza da seu imóvel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/casa05.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/casa05.jpg" class="link-preview" data-lightbox="portfolio" data-title="Casa no bairro A" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Casa no bairro A</a></h4>
+                <p>Providenciamos uma diarista para fazer a limpeza da seu imóvel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/casa06.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/casa06.jpg" class="link-preview" data-lightbox="portfolio" data-title="Casa no bairro C" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Casa no bairro C</a></h4>
+                <p>Providenciamos uma diarista para fazer a limpeza da seu imóvel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/casa07.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/casa07.jpg" class="link-preview" data-lightbox="portfolio" data-title="Casa no bairro A" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Casa no bairro A</a></h4>
+                <p>Providenciamos uma diarista para fazer a limpeza da seu imóvel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/casa08.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/casa08.jpg" class="link-preview" data-lightbox="portfolio" data-title="Casa no bairro C" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Casa no bairro C</a></h4>
+                <p>Providenciamos uma diarista para fazer a limpeza da seu imóvel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data- wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/casa09.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/casa09.jpg" class="link-preview" data-lightbox="portfolio" data-title="Casa no bairro A" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Casa no bairro A</a></h4>
+                <p>Providenciamos uma diarista para fazer a limpeza da seu imóvel.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    
+      ==========================
+      Clients Section
+      ==========================
+    
+    <section id="testimonials" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Testemunhos de nossos Clientes</h3>
+        </header>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+            <h3>Nome Cliente</h3>
+            <h4>Profissão</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Testemunho
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+            <h3>Nome Cliente</h3>
+            <h4>Profissão</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Testemunho
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
+            <h3>Nome Cliente</h3>
+            <h4>Profissão</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Testemunho
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+            <h3>Nome Cliente</h3>
+            <h4>Profissão</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Testemunho
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
+            <h3>Nome Cliente</h3>
+            <h4>Profissão</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Testemunho
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  -->
+    <!--
+      ==========================
+      Team Section
+      ==========================
+    -->
+    <section id="team">
+      <div class="container">
+        <div class="section-header wow fadeInUp">
+          <h3>Nossa Equipe</h3>
+          <p>Sempre os melhores e mais comprometidos profissionais</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/Valmir.jpeg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Valmir A Ambrizzi</h4>
+                  <span>Sócio Fundador</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/Fabiola.jpeg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Maria Fabiola F C Ambrizzi</h4>
+                  <span>Sócia Fundadora</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--
+      ==========================
+      Contact Section
+      ==========================
+    -->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contatos</h3>
+          <p>
+            Entre em contato conosco por estes canais. Semprer estamos prontos a atende-lo da melhor forma.
+          </p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="fa fa-whatsapp" aria-hidden="true"></i>
+              <h3>Whatsapp</h3>
+              <p>(11) 99402-1533</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <h3>Celular</h3>
+              <p>(11) 99402-1533</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:ambrizziv@gmail.com">ambrizziv@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!--
+    ==========================
+    Footer
+    ==========================
+  -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3><img id="logoImg" src="img/LogoHorizontalPequeno.png"></h3>
+            <p>
+              A nossa proposta é fazer a administração do seu imóvel e te dar a tranquilidade de que quando voce vier passar seus dias de folga na sua casa de praia a encontre nas melhores condições possíveis e então possa desfrutar bons momentos de lazer e descanso.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Links úteis</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Início</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#about">Sobre nós</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#services">Serviços</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contatos</h4>
+            <p>
+              <strong>Phone:</strong> (11) 99402-1533<br>
+              <strong>Email:</strong>ambrizziv@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a target="_blank" href="https://www.facebook.com/Parceiros-do-Lar-103612718639655" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" href="https://www.instagram.com/parceiros_do_lar/" class="instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Marilene Esquiavoni</strong> & <strong>Denny Paulista Azevedo Filho</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Desenvolvido por <a href="https://md.dev.br/">MD Soluções</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
