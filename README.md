@@ -11,7 +11,7 @@ Autores: **Marilene Esquiavoni** & **Denny Paulista Azevedo Filho**
 
 ### Tela Principal
 
-![Tela Principal](https://md.dev.br/img/sisweb/SiteParLar.png)
+![Tela Principal](https://mdcursos.dev.br/img/sisweb/SiteParLar.png)
 
 _Estes códigos estão sobre a licença_ **MIT**
 
